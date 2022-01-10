@@ -2,7 +2,9 @@
 This service consists of a single script that serves a `.json` file in chunks via `/data` endpoint.
 
 ## API
-* `GET /data` returns an array of JSON encoded data
+* `GET /data` query for a chunk of JSON encoded data. Responses:
+    * `200 OK` Body contains an array of JSON data
+    * `204 No Content` All the data from the file is exhausted
 
 ## Building and running
 The service can be built and run as a docker container.
