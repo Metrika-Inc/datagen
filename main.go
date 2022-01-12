@@ -72,6 +72,7 @@ func (f *datafile) getChunk() ([]byte, error) {
 	}
 
 	// skip the comma.
+	f.reader.ReadByte()
 	return outText, nil
 }
 
