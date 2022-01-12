@@ -1,5 +1,5 @@
 # Metrika Datagen
-This service consists of a single script that serves a `.json` file in chunks via `/data` endpoint.
+This service consists of a single script that serves a `.json` file in chunks via `/data` endpoint. This is part of the Data Engineer Take Home Assignment.
 
 ## API
 * `GET /data` query for a chunk of JSON encoded data. Responses:
